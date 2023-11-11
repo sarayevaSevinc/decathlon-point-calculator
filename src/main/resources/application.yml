@@ -1,0 +1,61 @@
+spring:
+  application:
+    name: decathlon-point-calculator
+
+server:
+  servlet:
+    context-path: /decathlon/v1
+  port: 8080
+
+sport:
+  parameters:
+    hundred-metres:
+      a: ${A:25.4347}
+      b: ${B:18}
+      c: ${C:1.81}
+      type: ${TYPE:TRACK}
+    long-jump:
+      a: ${A:0.14354}
+      b: ${B:220}
+      c: ${C:1.4}
+      type: ${TYPE:FIELD}
+    shot-put:
+      a: ${A:51.39}
+      b: ${B:1.5}
+      c: ${C:1.05}
+      type: ${TYPE:FIELD}
+    high-jump:
+      a: ${A:0.8465}
+      b: ${B:75}
+      c: ${C:1.42}
+      type: ${TYPE:FIELD}
+    four-hundred_metres:
+      a: ${A:1.53775}
+      b: ${B:82}
+      c: ${C:1.81}
+      type: ${TYPE:TRACK}
+    one-hundred-and-ten-metres-hurdles:
+      a: ${A:5.74352}
+      b: ${B:28.5}
+      c: ${C:1.92}
+      type: ${TYPE:TRACK}
+    discus-throw:
+      a: ${A:12.91}
+      b: ${B:4}
+      c: ${C:1.1}
+      type: ${TYPE:FIELD}
+    pole-vault:
+      a: ${A:0.2797}
+      b: ${B:100}
+      c: ${C:1.35}
+      type: ${TYPE:FIELD}
+    javelin-throw:
+      a: ${A:10.14}
+      b: ${B:7}
+      c: ${C:1.08}
+      type: ${TYPE:FIELD}
+    one-point-five-kilometers:
+      a: ${A:0.03768}
+      b: ${B:480}
+      c: ${C:1.85}
+      type: ${TYPE:TRACK}
