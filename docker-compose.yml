@@ -4,6 +4,5 @@ services:
   app:
     container_name: decathlon-point-calculator
     image: decathlon-point-calculator
-    build: docker
     ports:
       - "8080:8080"

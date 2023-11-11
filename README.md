@@ -11,8 +11,8 @@ The microservice provides the following:
 ## Running the application
 
 You can run it as a standalone jar in a few different ways:
-you should create docker image with running the dockerFile (
-located `decathlon-point-calculator/Dockerfile`  ) and then run the docker-compose.yml file (located
+you should firstly build the service and create docker image with running the dockerFile (
+located `decathlon-point-calculator/Dockerfile`  ) after that run the docker-compose.yml file (located
 in `decathlon-point-calculator` )
 `
 docker-compose up
